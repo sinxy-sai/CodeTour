@@ -1,3 +1,4 @@
+# 线性DP 连续子段最优
 import sys
 
 def main():
