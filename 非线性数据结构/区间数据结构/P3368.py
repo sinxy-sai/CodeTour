@@ -59,6 +59,7 @@ def main():
     for _ in range(m):
         op = next(it)
 
+        # 区间加法
         if op == 1:
             left = next(it)
             right = next(it)
@@ -69,6 +70,7 @@ def main():
             if right + 1 <= n:
                 bit.add(right+1,-value)
 
+        # 单点查询
         elif op == 2:
             index = next(it)
             out.append(bit.prefix_sum(index))
