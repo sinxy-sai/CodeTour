@@ -1,3 +1,4 @@
+# 二分查找模板
 import sys
 from bisect import bisect_left
 
